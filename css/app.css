@@ -1,7 +1,7 @@
 .home-main-content {
     background-image: url(../img/jumbotron.png);
     /* using "../img/" for stuff does not seem to be quite optimal, 
-    use a different method like simply /img/ when hosting via laravel */
+    use a different method like simply /img/ when hosting via php or laravel */
     background-size: cover;
     height: 300px;
 }
