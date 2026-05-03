@@ -7,3 +7,6 @@ Not everything is fully implemented, some parts of the site are missing because 
 <br>
 <br>
 Everything you need to know is in the HTML files via the forms of comments.
+<br>
+<br>
+In case this needs to be said, you "host" these HTML files by just opening them using your web browser.
