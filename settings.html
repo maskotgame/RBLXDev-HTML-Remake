@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RBLXDev tbn</title>
+        <!-- Change title accordingly to page. Ex: <title>Home - RBLXDev tbn</title> or whatever -->
+        <link rel="stylesheet" href="css/app.css">
+        <!-- app.css is custom, do not delete this as this is responsible for keeping the stupid jumbotron together -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="./img/favicon.png">
+        <!-- Ensure full compatibility with Mandarin symbols -->
+        <meta charset="UTF-8">
+        <!-- Ensure full compatibility with small screen displays/mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <!-- Navbar starts here, this page also reveals what the user navbar looks like -->
+        <nav class="navbar navbar-expand-lg bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">RBLXDev</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">资料</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">论坛 (BBS)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">博客</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">账户信息</a>
+                        </li>
+                        <!-- "当前密码" roughly translates to "Current Password", make this option only available to admins -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">当前密码</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">玩家</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="./img/tix.png"> 244</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="./img/user.png"> Raymonf <img src="./img/dropdown.png"></a>
+                            <!-- Don't use fontawesome, i used it once and it's way too fun -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Alert -->
+        <div class="alert alert-warning rounded text-center">
+            请记住,这是在测试网站。这个数据库可能会过时,并没有改变将进行到真的RBLXDev网站。你已经被警告。
+        </div>
+        <!-- Navbar ends here, put it in a seperate file for convenience -->
+        <div class="app">
+            <div class="container">
+                <div class="card border-secondary bg-white mb-3" style="border-bottom: 5px solid;">
+                    <div class="card-header bg-primary text-white">设置</div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8 card border-secondary px-0 mx-3 mb-auto" style="width: 30%; border-bottom: 5px solid;">
+                                    <div class="card-header">账户信息</div>
+                                    <div class="card-body bg-white">
+                                        <div class="card-body bg-secondary rounded">
+                                            <div class="mb-3">
+                                                <input type="password" class="form-control" placeholder="当前密码">
+                                            </div>
+                                            <div class="my-3">
+                                                <input type="password" class="form-control" placeholder="新密码">
+                                            </div>
+                                            <div class="my-3">
+                                                <input type="password" class="form-control" placeholder="重复新密码">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary w-100">提交</button>
+                                        </div>
+                                        <div class="my-4">
+                                            <strong>变化人物</strong>
+                                            <p>你可以使用下面的按钮来更改你的角色的外观。.</p>
+                                            <button type="submit" class="btn btn-primary">变化人物</button>
+                                        </div>
+                                        <div class="my-4">
+                                            <strong>转介系统</strong>
+                                            <p>你可以介绍人玩RBLXDev。(最多50人)</p>
+                                            <button type="submit" class="btn btn-primary">介绍人</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 card border-secondary px-0 mx-3 mb-auto" style="width: 60%; border-bottom: 5px solid;">
+                                    <div class="card-header">资料</div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-3">
+                                            <strong>关于自己:</strong><br>
+                                            <!-- Bio. Make it so that anyone can edit anything into it if used in a revival. -->
+                                            <textarea class="form-control" rows="8">
+Harro! I'm Raymonf. I like sushi.
+By the way, this is resizable on y!
+</textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">修改</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer starts here -->
+        <div class="footer text-center">
+            <p class="my-0">RBLXDev是不隶属于ROBLOX Corporation。</p>
+            <p class="my-0"><span id="math-huge"></span> 个蛋糕给rbxrootx!</p>
+            <!-- Please replace <span id="math-huge"></span> with an ACTUAL random number generator -->
+            <!-- <?php echo(rand(1,99999)); ?> -->
+            <script>
+                document.getElementById("math-huge").innerHTML =
+                Math.round(Math.random() * 99999 + 1);
+            </script>
+            <p>版权© RBLXDev 2012-2015</p>
+            <!-- Footer ends here, put it in a seperate file for convenience -->
+            <!-- You can keep the 2012-2015 thing, but if you wanna be more "up-to-date", do 2012-<?php echo date("Y") ?> so it goes like 2012-2026 -->
+        </div>
+    </body>
+</html>
