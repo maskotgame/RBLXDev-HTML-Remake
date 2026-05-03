@@ -1,5 +1,5 @@
 # RBLXDev-HTML-Remake
-<img src="https://raw.githubusercontent.com/maskotgame/RBLXDev-HTML-Remake/refs/heads/main/git-banner.png" width="500"><br>
+<img src="https://raw.githubusercontent.com/maskotgame/RBLXDev-HTML-Remake/refs/heads/main/git-banner.png"><br>
 This repository contains a complete remake/recreation of the RBXLDev v2 frontend as showcased on an <a href="https://imgur.com/a/fe1uP">imgur thread</a>.
 <br>
 <br>
