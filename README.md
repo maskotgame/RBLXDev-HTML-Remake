@@ -11,5 +11,4 @@ Everything you need to know is in the HTML files via the forms of comments.
 <br>
 In case this needs to be said, you "host" these HTML files by just opening them using your web browser.
 <br>
-<br>
 <h3>Too lazy to download and open? View the files in <a href="https://rblxdev.g-bug.site/">this website</a>!</h3>
