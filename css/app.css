@@ -1,9 +1,13 @@
 .home-main-content {
     background-image: url(../img/jumbotron.png);
     /* using "../img/" for stuff does not seem to be quite optimal, 
-    use a different method like simply /img/ when hosting via php or laravel */
-    background-size: cover;
+    use a different method like simply /img/ when hosting via laravel */
     height: 300px;
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
 }
 .text-shadow-light {
     text-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff;
