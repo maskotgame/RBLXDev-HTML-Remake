@@ -1,9 +1,10 @@
 # RBLXDev-HTML-Remake
 <img src="https://raw.githubusercontent.com/maskotgame/RBLXDev-HTML-Remake/refs/heads/main/git-banner.png"><br>
-This repository contains 1:1 recreations of the RBLXDev v2 frontend as showcased on an <a href="https://imgur.com/a/fe1uP">imgur thread</a>.
+This repository contains 1:1 recreations of the RBLXDev Lumen frontend as showcased on an <a href="https://imgur.com/a/fe1uP">imgur thread</a>.<br>
+<p><small>This repo now also includes 1:1 recreations of RBLXDev Paper frontend.</small></p>
 <br>
 <br>
-Not everything is fully implemented, some parts of the site are missing because they weren't documented.
+Not everything is fully recreated, some parts of the site are missing because they weren't documented.
 <br>
 <br>
 Everything you need to know is in the HTML files via the forms of comments.
