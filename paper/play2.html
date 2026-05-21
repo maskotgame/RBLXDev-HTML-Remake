@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RBLXDev : Play</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://bootswatch.com/3/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">RBLXDev</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Forums</a>
+                        </li>
+                        <li>
+                            <a href="#">Games</a>
+                        </li>
+                        <li>
+                            <a href="#">Hat Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Chat</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">LuaLauncher's Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Downloads</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FazbearPLSAlt <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">...</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">RBLXDev Game</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3>Testing! <span class="h4 text-muted">by <a href="#">khanglegos</a></span></h3>
+                            <p><i>No description</i></p>
+                        </div>
+                        <div class="col-md-5">
+                            <button class="btn btn-success btn-block">Play</button>
+                            <a href="#" data-toggle="modal" data-target="#chromehelp">Chrome Help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h6>Copyright © RBLXDev 2013 - 2014; RBLXDev is <b>not</b> affiliated in any way with ROBLOX Corporation. All times are EST (US/Eastern).</h6>
+                <br>
+                <h6>Site mostly designed by SDCore :)</h6>
+                <br>
+                <h6>Website r2140 | <a href="#">DMCA?</a></h6>
+            </div>
+        </div>
+        <div class="modal fade" id="chromehelp" tabindex="-1" role="dialog" aria-labelledby="chromehelp">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Chrome Help</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>To begin, you must install the <a href="#">RBLXDev 2010 test software.</a></p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2>1.</h2>
+                                <p>You may have noticed the play button doesn't work at all with Google Chrome. That's okay! We have a fix!</p>
+                                <p>First, in a new Windows Explorer window, navigate to <i>%LOCALAPPDATA%\Google\Chrome\User Data</i>. Find <b>Local State</b>.</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <h2>2.</h2>
+                                <p>Open Local State with a text editor. Notepad++ is recommended.</p>
+                                <p>Then, search for <b>"rblxdevten":true</b>. Change that to <b>"rblxdev":false</b> and then restart Chrome.</p>
+                                <p>If that doesn't exist, look for <b>excluded_schemes</b> and add "rblxdev":false to the list.</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <h2>3.</h2>
+                                <p>Navigate back to the server page.</p>
+                                <p>Then simply press Play!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
